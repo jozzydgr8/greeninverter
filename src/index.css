@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --green-primary: #3AAF3E;
+  --green-dark: #1F6E1F;
+  --red-accent: #C63846;
+  --text-dark: #000000;
+  --background: #FFFFFF;
+  --different-background:#F5F5F5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Meera Inimai", sans-serif;
+}
+.btndark, .btndark:hover{
+  color: var(--background);
+  background-color: var(--green-dark);
+}
+h1{ 
+  font-family: "Work Sans", sans-serif;
+}
+h2{
+   font-family: "PT Sans Caption", sans-serif;
+   color: var(--green-primary);
+   text-align: center;
+}
+section > .container-fluid {
+    padding: 3% 5%;
+}
+/* Navbar */
+.navbar-brand, .nav-link {
+    color: var(--text-color);
+}
+
+.navbar-brand {
+    width: 10%;
+}
+nav .container-fluid{
+  padding: 1% 5%;
+}
+
+@media (max-width:750px) {
+    .navbar-brand {
+        width: 30%;
+    }
+}
+
+/* Floating Icons */
+.whatsappIcon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: var(--different-background);
+    color: var(--text-color);
+    border-radius: 250px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.whatsappIcon img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:750px) {
+    .whatsappIcon img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* product/service */
+.servicegrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+   /* or 70px for .servicegridsecond */
+}
+
+
+
+.servicegrid > div, .servicegridcontent{
+  background-color: var(--green-primary);
+  color: var(--background);
+  border-radius: 15px;
+  /* background-color: var(--color-teal-blue);
+  color: white; */
+  padding: 15px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  box-sizing: border-box;
+
 }
