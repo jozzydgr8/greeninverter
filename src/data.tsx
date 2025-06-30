@@ -1,20 +1,23 @@
 import demoImage from './assets/greeninverterlogo.jpg'
 import {CheckOutlined} from '@ant-design/icons'
+import imageone from './assets/mrgreen.jpg'
+import imagetwo from './assets/housewithpanels.jpg';
+import imagethree from './assets/invertersimage.jpg'
 export const service = [
     {
         title:'Solar system',
         service:['installations', 'maintenance', 'supply'],
-        image:demoImage
+        image:imagethree
     },
     {
         title:"Electrical Installations",
         service:['Domestic installations', 'industrial installations', 'maintenance and supply'],
-        image:demoImage
+        image:imageone
     },
     {
         title:"Fencing Protection",
         service:['Electric Fence installations', 'maintenance'],
-        image:demoImage
+        image:imagetwo
     }
 ]
 
@@ -43,5 +46,17 @@ export const reason = [
         icon:<CheckOutlined className='chooseIcons'/>,
         title:"Trusted",
         desc:"Customer relationships"
+    }
+]
+
+export const backgroundimages = [
+//    {
+//     background:imageone
+//    },
+    // {
+    //     background:imagetwo
+    // },
+    {
+        background:imagethree
     }
 ]

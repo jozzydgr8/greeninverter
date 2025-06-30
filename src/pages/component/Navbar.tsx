@@ -17,7 +17,7 @@ export const Navbar = ()=>{
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                          <a href={'/'} className={'nav-link active'}>Home</a>
+                          <a href={'/'} className={'nav-link'}>Home</a>
                           
                         </li>
                         
@@ -27,7 +27,7 @@ export const Navbar = ()=>{
                         
                       
                         <li className="nav-item">
-                        <a href='https://wa.link/ubp14t' target='_blank'><button className='btn'>Contact Us</button></a>
+                        <a href='https://wa.link/ubp14t' target='_blank'><button className='btn btndark'>Contact Us</button></a>
                           {/* <a><button className='btn' onClick={onClick}> Toggle Night </button></a> */}
                         
                         </li>
