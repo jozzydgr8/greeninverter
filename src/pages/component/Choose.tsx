@@ -9,7 +9,7 @@ export const Choose = ()=>{
                 
                 <div className="row">
                     <div className="col-md-6">
-                        <h3>Why Choose Arkcity LPG</h3>
+                        <h3>Why Choose GREEN CITY CONCEPTS</h3>
                         <div>
                         <p>
                         We're not just another gas delivery service. Our commitment to safety reliability and
@@ -30,7 +30,7 @@ export const Choose = ()=>{
                             {
                                 reason.map((feature, index)=>(
                                     <Col md={12} sm={24} xs={24}>
-                                        <div className="aboutcard" style={{display:"flex", flexDirection:'column', alignItems:'center'}}>
+                                        <div className="choosecard" style={{display:"flex", flexDirection:'column', alignItems:'center'}}>
                                             <div>{feature.icon}</div>
                                             <h3>{feature.title}</h3>
                                             <p>{feature.desc}</p>
@@ -42,13 +42,11 @@ export const Choose = ()=>{
                     </div>
                 </div>
                 <div style={{textAlign:'center', padding:'7% 0'}}>
-                    <h2>Ready to Order your Cooking Gas?</h2>
-                    <p>Experience the conveninece of fast, safe and affordable gas delivery straight to your doorstep.</p>
+                    <h2>Need Reliable Inverter Solutions?</h2>
+                    <p>Experience the convenience of clean, reliable, and affordable solar power — delivered and installed for your peace of mind.</p>
                     <div>
-                        <FlatButton title="Order Now" className="btndark"/>  
-                         <a href="tel:+2348123456789">
-                            Call+234 812 345 6789
-                         </a>
+                        <FlatButton title="Chat us Now" className="btndark"/>  
+                         <a href="tel:08108304732">+234 810 8304 732</a>
                     </div>
                 </div>
             </div>

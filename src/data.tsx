@@ -20,27 +20,27 @@ export const service = [
 
 export const reason = [
     {
-        icon:<CheckOutlined/>,
+        icon:<CheckOutlined className='chooseIcons'/>,
         title:"100%",
         desc:'Product Warranty'
     },
     {
-        icon:<CheckOutlined/>,
+        icon:<CheckOutlined className='chooseIcons'/>,
         title:'Uncompromising',
         desc:'guarantee on Products choice'
     },
     {
-        icon:<CheckOutlined/>,
+        icon:<CheckOutlined className='chooseIcons'/>,
         title:"complete",
         desc:'Customers satisfaction'
     },
     {
-        icon:<CheckOutlined/>,
+        icon:<CheckOutlined className='chooseIcons'/>,
         title:"Absolutely",
         desc:'reliable, Trusted and Affordable'
     },
     {
-        icon:<CheckOutlined/>,
+        icon:<CheckOutlined className='chooseIcons'/>,
         title:"Trusted",
         desc:"Customer relationships"
     }
