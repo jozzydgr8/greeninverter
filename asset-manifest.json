@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85255cbe.css",
+    "main.js": "/static/js/main.d7257a6c.js",
+    "static/js/453.6f5ec2d1.chunk.js": "/static/js/453.6f5ec2d1.chunk.js",
+    "static/media/housewithpanels.jpg": "/static/media/housewithpanels.6ecd6b95368abad6409d.jpg",
+    "static/media/mrgreen.jpg": "/static/media/mrgreen.df8db66b5bebb6ffdb34.jpg",
+    "static/media/invertersimage.jpg": "/static/media/invertersimage.968bb7b298b4c3bd3c0a.jpg",
+    "static/media/greeninverterlogo.jpg": "/static/media/greeninverterlogo.e19f8438da1922410b76.jpg",
+    "index.html": "/index.html",
+    "main.85255cbe.css.map": "/static/css/main.85255cbe.css.map",
+    "main.d7257a6c.js.map": "/static/js/main.d7257a6c.js.map",
+    "453.6f5ec2d1.chunk.js.map": "/static/js/453.6f5ec2d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85255cbe.css",
+    "static/js/main.d7257a6c.js"
+  ]
+}
