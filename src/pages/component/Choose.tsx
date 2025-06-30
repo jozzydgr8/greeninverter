@@ -9,15 +9,15 @@ export const Choose = ()=>{
                 
                 <div className="row">
                     <div className="col-md-6">
-                        <h3>Why Choose GREEN CITY CONCEPTS</h3>
+                        <h3>Why Choose GREEN CITY CONCEPTS?</h3>
                         <div>
                         <p>
-                        We're not just another gas delivery service. Our commitment to safety reliability and
-                        customer satisfaction sets us apart in the industry. With <a>DPR</a> and <a>SON</a> certifications.
-                        You can trust that you're getting the highest quality LPG products and service.
+                        Green Concept delivers clean, reliable, and affordable energy solutions you can trust. 
+                        From solar and inverter systems to expert electrical services, we’re committed to quality, 
+                        safety, and customer satisfaction. Power your home or business the smart, sustainable way — with Green Concept.
                         </p>
                         <div>
-                            <FlatButton className="btndark" title="Learn More About Us"/>
+                            <FlatButton className="btndark" title="Learn More"/>
                             <FlatButton title="Contact Us" className="btnlight"/>
                         </div>
                         </div>
