@@ -21,7 +21,7 @@ export const Header = ()=>{
       display:"flex",
       justifyContent:'center',
       alignItems:'center',
-      height:"100%"
+      height:"100%",
     },
   
   }
@@ -34,7 +34,7 @@ export const Header = ()=>{
             }}>
                 <div className="header-gradient-background">
                     <div className="container-fluid" style={styles.container}>
-                        <div style={{...styles.content, flexDirection:'column'}}>
+                        <div style={{...styles.content, flexDirection:'column', textAlign:'center'}}>
                             <h1>
                                 Powering a Brighter, Greener Tomorrow
                             </h1>
