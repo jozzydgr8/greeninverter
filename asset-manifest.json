@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/greeninverter/static/css/main.62bde64c.css",
-    "main.js": "/greeninverter/static/js/main.416d1826.js",
+    "main.css": "/greeninverter/static/css/main.333b2315.css",
+    "main.js": "/greeninverter/static/js/main.ec50b682.js",
     "static/js/453.6f5ec2d1.chunk.js": "/greeninverter/static/js/453.6f5ec2d1.chunk.js",
     "static/media/mrgreen.jpg": "/greeninverter/static/media/mrgreen.df8db66b5bebb6ffdb34.jpg",
     "static/media/invertersimage.jpg": "/greeninverter/static/media/invertersimage.968bb7b298b4c3bd3c0a.jpg",
-    "static/media/greeninverterlogo.jpg": "/greeninverter/static/media/greeninverterlogo.e19f8438da1922410b76.jpg",
+    "static/media/greeninverterlogo.jpg": "/greeninverter/static/media/greeninverterlogo.90a1ee593a4498db4e74.jpg",
     "static/media/electricfence.jpg": "/greeninverter/static/media/electricfence.932931b3f3209afeef04.jpg",
     "index.html": "/greeninverter/index.html",
-    "main.62bde64c.css.map": "/greeninverter/static/css/main.62bde64c.css.map",
-    "main.416d1826.js.map": "/greeninverter/static/js/main.416d1826.js.map",
+    "main.333b2315.css.map": "/greeninverter/static/css/main.333b2315.css.map",
+    "main.ec50b682.js.map": "/greeninverter/static/js/main.ec50b682.js.map",
     "453.6f5ec2d1.chunk.js.map": "/greeninverter/static/js/453.6f5ec2d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62bde64c.css",
-    "static/js/main.416d1826.js"
+    "static/css/main.333b2315.css",
+    "static/js/main.ec50b682.js"
   ]
 }
