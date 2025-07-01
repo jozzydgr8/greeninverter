@@ -85,6 +85,27 @@ nav .container-fluid{
     }
 }
 
+/* about */
+#about{
+  background:var(--green-dark)
+}
+#about h2{
+  color: var(--background);
+}
+#about h3{
+  color: var(--green-dark);
+}
+
+
+.aboutcontent {
+  background: white;
+  color: black;
+  min-height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  
+}
 /* product/service */
 .servicegrid {
   display: flex;

@@ -1,4 +1,4 @@
-
+import {SendOutlined} from '@ant-design/icons'
 export const Footer =()=>{
     return(
         <section id="footer-section">
@@ -21,7 +21,8 @@ export const Footer =()=>{
                     <h3>Quick Links</h3>
                     <a href="tel:08108304732">Contact Us</a> <hr/>
                     <a href="#about-section">About</a> <hr/>
-                    <a href="#about-section">Our Products</a>
+                    <a href="#about-section">Our Products</a><hr/>
+                    <a href='https://wa.link/j0ztbn' target="_blank">Send Us a message on Whatsapp <SendOutlined/></a>
                 </div>
               </div>
 

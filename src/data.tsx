@@ -2,7 +2,8 @@ import demoImage from './assets/greeninverterlogo.jpg'
 import {CheckOutlined} from '@ant-design/icons'
 import imageone from './assets/mrgreen.jpg'
 import imagetwo from './assets/housewithpanels.jpg';
-import imagethree from './assets/invertersimage.jpg'
+import imagethree from './assets/invertersimage.jpg';
+import electricfence from './assets/electricfence.jpg';
 export const service = [
     {
         title:'Solar system',
@@ -17,7 +18,7 @@ export const service = [
     {
         title:"Fencing Protection",
         service:['Electric Fence installations', 'maintenance'],
-        image:imagetwo
+        image:electricfence
     }
 ]
 

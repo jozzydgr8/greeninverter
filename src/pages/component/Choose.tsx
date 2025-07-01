@@ -17,8 +17,9 @@ export const Choose = ()=>{
                         safety, and customer satisfaction. Power your home or business the smart, sustainable way — with Green Concept.
                         </p>
                         <div>
-                            <FlatButton className="btndark" title="Learn More"/>
-                            <FlatButton title="Contact Us" className="btnlight"/>
+                            <a href='https://wa.link/j0ztbn' target="_blank"><FlatButton className="btndark" title="Learn More"/></a>
+                            <a href='tel:08108304732' target="_blank"><FlatButton title="Contact Us" className="btnlight"/></a>
+                            
                         </div>
                         </div>
 
@@ -45,7 +46,10 @@ export const Choose = ()=>{
                     <h2>Need Reliable Inverter Solutions?</h2>
                     <p>Experience the convenience of clean, reliable, and affordable solar power — delivered and installed for your peace of mind.</p>
                     <div>
-                        <FlatButton title="Chat us Now" className="btndark"/>  
+                        <a href='https://wa.link/j0ztbn' target="_blank">
+                        <FlatButton title="Chat us Now" className="btndark"/> 
+                        </a>
+                
                          <a href="tel:08108304732">+234 810 8304 732</a>
                     </div>
                 </div>

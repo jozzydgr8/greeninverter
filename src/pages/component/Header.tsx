@@ -43,9 +43,18 @@ export const Header = ()=>{
                             </p>
                             <div>
                                 <Space wrap={true} className="headerbutton">
+                                    <a href='https://wa.link/j0ztbn' target="_blank">
                                     <FlatButton title="Learn more" className="btndark btn-lg"/>
+                                    </a>
+                                    <a href='https://wa.link/j0ztbn' target="_blank">
                                     <FlatButton title="Message Us" className="btndark btn-lg"/>
-                                    <FlatButton title="Call Now" className="btndanger btn-lg" />
+                                    </a>
+                                    <a href="tel:08108304732" target="_blank">
+                                         <FlatButton title="Call Now" className="btndanger btn-lg" />
+                                    </a>
+                                    
+                                    
+                                   
                                 </Space>
 
                             </div>
