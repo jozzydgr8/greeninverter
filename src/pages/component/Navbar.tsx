@@ -22,7 +22,7 @@ export const Navbar = ()=>{
                         </li>
                         
                         <li className="nav-item">
-                        <a href={'/#services'} className={'nav-link'}>Features</a>
+                        <a href={'/#services'} className={'nav-link'}>Services</a>
                         </li>
                         
                       

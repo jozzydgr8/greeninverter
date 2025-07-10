@@ -1,4 +1,4 @@
-import demobackground from '../../assets/invertersimage.jpg';
+import demobackground from '../../assets/invertersimage.png';
 import {SendOutlined} from '@ant-design/icons';
 import { FlatButton } from './FlatButton';
 export const About = ()=>{
@@ -23,16 +23,16 @@ export const About = ()=>{
                     </div>
                     <div className="aboutcontent col-md-6"style={styles.content}>
                         <div>
-                            <h3>Your Trusted Partner in Solar and Electrical Solutions</h3>
-                            <p>
+                            <h3 className='animate-down'>Your Trusted Partner in Solar and Electrical Solutions</h3>
+                            <p >
                             GC Green Concept is a trusted provider of solar energy solutions and electrical/power services in Nigeria.
                             With a strong commitment to quality, innovation, and customer satisfaction, we specialize in electrical installations and maintenance, solar system setup and support, as well as power supply solutions. Over the years, we have successfully served several clients across the country,
                             consistently meeting regulatory standards and exceeding customer expectations. 
 
                         </p>
                          <br/>
-                        <a href='https://wa.link/j0ztbn'>
-                        <FlatButton className="btn btndark" >
+                        <a href='https://wa.link/j0ztbn' >
+                        <FlatButton className="btn btndark animate-up" >
                            <>
                             Contact Us Now {<SendOutlined/>}
                             </>

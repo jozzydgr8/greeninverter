@@ -12,6 +12,13 @@ export const Header = ()=>{
 
     return () => clearInterval(interval); 
   }, []);
+  useEffect(()=>{
+        var container = document.querySelector('.headerwrite');
+        var containerButton = document.querySelector('.headerbutton');
+        container?.classList.add('sectionAnimationLeft');
+        containerButton?.classList.add('sectionAnimationUp')
+    },[])
+
     const styles = {
     container:{
       color:'white',
@@ -35,13 +42,13 @@ export const Header = ()=>{
                 <div className="header-gradient-background">
                     <div className="container-fluid" style={styles.container}>
                         <div style={{...styles.content, flexDirection:'column', textAlign:'center'}}>
-                            <h1>
+                            <h1  className="headerwrite">
                                 Powering a Brighter, Greener Tomorrow
                             </h1>
                             <p>
                                 We are a leading Solar Solution Provider and Electrical/Power Provider
                             </p>
-                            <div>
+                            <div className="headerbutton">
                                 <Space wrap={true} className="headerbutton">
                                     <a href='https://wa.link/j0ztbn' target="_blank">
                                     <FlatButton title="Learn more" className="btndark btn-lg"/>

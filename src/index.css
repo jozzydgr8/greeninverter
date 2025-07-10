@@ -33,6 +33,7 @@ h2{
 }
 h3{
    font-family: "PT Sans Caption", sans-serif;
+   color: var(--green-dark);
    
    
 }
@@ -133,14 +134,16 @@ nav .container-fluid{
   color: var(--background);
   background-color: var(--green-primary);
 }
-
+.choosecard h3{
+  color: var(--background) !important;
+}
 .choosecard{
    display: flex;
   flex-direction: column;
   justify-content: space-between; /* pushes button to bottom */
   height: 100%;
   background: var(--green-dark);
-  color: var(--background);
+  color: var(--background) !important;
   padding: 30px;
   margin: 5px;
   border-radius: 15px;
@@ -170,4 +173,28 @@ nav .container-fluid{
     transparent 30%,
     var(--green-dark) 100%
   );
+}
+
+/* animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
 }

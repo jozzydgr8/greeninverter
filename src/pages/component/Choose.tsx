@@ -9,14 +9,14 @@ export const Choose = ()=>{
                 
                 <div className="row">
                     <div className="col-md-6">
-                        <h3>Why Choose GREEN CITY CONCEPTS?</h3>
+                        <h3 className="animate-down">Why Choose GREEN CITY CONCEPTS?</h3>
                         <div>
                         <p>
                         Green Concept delivers clean, reliable, and affordable energy solutions you can trust. 
                         From solar and inverter systems to expert electrical services, we’re committed to quality, 
                         safety, and customer satisfaction. Power your home or business the smart, sustainable way — with Green Concept.
                         </p>
-                        <div>
+                        <div className="animate-up">
                             <a href='https://wa.link/j0ztbn' target="_blank"><FlatButton className="btndark" title="Learn More"/></a>
                             <a href='tel:08108304732' target="_blank"><FlatButton title="Contact Us" className="btnlight"/></a>
                             
@@ -43,9 +43,9 @@ export const Choose = ()=>{
                     </div>
                 </div>
                 <div style={{textAlign:'center', padding:'7% 0'}}>
-                    <h2>Need Reliable Inverter Solutions?</h2>
+                    <h2 className="animate-left">Need Reliable Inverter Solutions?</h2>
                     <p>Experience the convenience of clean, reliable, and affordable solar power — delivered and installed for your peace of mind.</p>
-                    <div>
+                    <div className="animate-up">
                         <a href='https://wa.link/j0ztbn' target="_blank">
                         <FlatButton title="Chat us Now" className="btndark"/> 
                         </a>

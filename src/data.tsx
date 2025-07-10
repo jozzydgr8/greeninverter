@@ -1,19 +1,20 @@
-import demoImage from './assets/greeninverterlogo.jpg'
+
 import {CheckOutlined} from '@ant-design/icons'
-import imageone from './assets/mrgreen.jpg'
-import imagetwo from './assets/housewithpanels.jpg';
-import imagethree from './assets/invertersimage.jpg';
+import mrgreen from './assets/mrgreen.png'
+import imagetwo from './assets/housewithpanels.png';
+import invertersimage from './assets/invertersimage.png';
 import electricfence from './assets/electricfence.jpg';
+import electricalImage from './assets/electricalwiring.png'
 export const service = [
     {
         title:'Solar system',
         service:['installations', 'maintenance', 'supply'],
-        image:imagethree
+        image:invertersimage
     },
     {
         title:"Electrical Installations",
         service:['Domestic installations', 'industrial installations', 'maintenance and supply'],
-        image:imageone
+        image:electricalImage
     },
     {
         title:"Fencing Protection",
@@ -30,11 +31,6 @@ export const reason = [
     },
     {
         icon:<CheckOutlined className='chooseIcons'/>,
-        title:'Uncompromising',
-        desc:'guarantee on Products choice'
-    },
-    {
-        icon:<CheckOutlined className='chooseIcons'/>,
         title:"complete",
         desc:'Customers satisfaction'
     },
@@ -47,17 +43,22 @@ export const reason = [
         icon:<CheckOutlined className='chooseIcons'/>,
         title:"Trusted",
         desc:"Customer relationships"
-    }
+    },
+    {
+        icon:<CheckOutlined className='chooseIcons'/>,
+        title:'Uncompromising',
+        desc:'guarantee on Products choice'
+    },
 ]
 
 export const backgroundimages = [
-//    {
-//     background:imageone
-//    },
-    // {
-    //     background:imagetwo
-    // },
+   {
+    background:mrgreen
+   },
     {
-        background:imagethree
+        background:imagetwo
+    },
+    {
+        background:invertersimage
     }
 ]

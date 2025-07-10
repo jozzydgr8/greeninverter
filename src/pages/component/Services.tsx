@@ -2,7 +2,7 @@ import { service } from "../../data"
 
 export const Services = ()=>{
     return(
-        <section>
+        <section id='services'>
             <div className="container-fluid">
                 <div className="servicegrid">
                    {
@@ -26,7 +26,7 @@ export const Services = ()=>{
                                 padding: "15px",
                                 gap: "10px",
                             }}>
-                                <h3>{serviceItem.title}</h3>
+                                <h3 className="animate-down">{serviceItem.title}</h3>
 
                                 <div style={{
                                 display: "flex",
@@ -36,13 +36,13 @@ export const Services = ()=>{
                                 {
                                     serviceItem.service.map((item, i) => (
                                     <div key={i} style={{
-                                        backgroundColor: "#e0f7e9", // light green tint for energy theme
+                                        backgroundColor: "#e0f7e9",
                                         color: "#0d684f",
                                         padding: "6px 12px",
                                         borderRadius: "20px",
                                         fontSize: "14px",
                                         fontWeight: "500",
-                                    }}>
+                                    }} className="animate-up">
                                         {item}
                                     </div>
                                     ))
