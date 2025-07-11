@@ -7,7 +7,7 @@ import electricfence from './assets/electricfence.jpg';
 import electricalImage from './assets/electricalwiring.png'
 export const service = [
     {
-        title:'Solar system',
+        title:'Inverter Solar system',
         service:['installations', 'maintenance', 'supply'],
         image:invertersimage
     },
@@ -17,7 +17,7 @@ export const service = [
         image:electricalImage
     },
     {
-        title:"Fencing Protection",
+        title:"Electric Fence Protection",
         service:['Electric Fence installations', 'maintenance'],
         image:electricfence
     }
