@@ -13,7 +13,7 @@ export const service = [
     },
     {
         title:"Electrical Installations",
-        service:['Domestic installations', 'industrial installations', 'maintenance and supply'],
+        service:['Domestic installations', 'industrial installations', 'CCTV installations','maintenance and supply'],
         image:electricalImage
     },
     {
