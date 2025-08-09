@@ -14,7 +14,7 @@ export const Footer =()=>{
                     <h3>Contact Section</h3>
                     Location: Lagos Nigeria, Lagos. <br/><br/>
                     Phone No: <a href="tel:08108304732">+234 810 8304 732</a> <br/><br/>
-                    Email: <a href="mailto:gospelozegbe@gmail.com">gospelozegbe@gmail.com</a> <br/><br/>
+                    Email: <a href="mailto:info@greenenergyinstallation.com">info@greenenergyinstallation.com</a> <br/><br/>
                 </div>
                 
                 <div className="col-md-4">
