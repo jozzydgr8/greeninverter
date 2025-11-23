@@ -1,5 +1,8 @@
 import { Home } from "./pages/homePage/Home";
 import { useEffect } from "react";
+import {createBrowserRouter, createRoutesFromElements, Route, Outlet, RouterProvider} from 'react-router-dom'
+import { Installation } from "./pages/Rank/Installation";
+import { BestInstaller } from "./pages/Rank/BestInstaller";
 
  
 
@@ -47,10 +50,16 @@ function App() {
     }
     window.addEventListener('scroll', animation);
   },[])
-  
+  const router = createBrowserRouter(createRoutesFromElements(
+    <Route path="/" element={<Outlet/>}>
+        <Route index element={<Home/>}/>
+        <Route path="inverter-installation-in-lagos" element={<Installation/>}/>
+        <Route path="best-inverter-installers-in-lagos" element={<BestInstaller/>}/>
+    </Route>
+  ))
   return (
     <div className="App">
-      <Home/>
+      <RouterProvider router={router}/>
     </div>
   );
 }

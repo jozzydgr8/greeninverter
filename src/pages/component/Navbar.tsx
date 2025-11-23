@@ -27,7 +27,7 @@ export const Navbar = ()=>{
                         
                       
                         <li className="nav-item">
-                        <a href='https://wa.link/j0ztbn' target='_blank'><button className='btn btndark'>Contact Us</button></a>
+                        <a href='https://wa.link/j0ztbn' target='_blank' rel="noreferrer"><button className='btn btndark'>Contact Us</button></a>
                           {/* <a><button className='btn' onClick={onClick}> Toggle Night </button></a> */}
                         
                         </li>
