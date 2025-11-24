@@ -10,7 +10,7 @@ export const Installation = ()=>{
     return (
         <>
         <Helmet>
-            <title>Inverter Solution in Lagos | Green City Concepts</title>
+            <title>Inverter Solution in Lagos | Green Energy Installation | Green City Concepts</title>
             <link rel='canonical' href={`https://greencityconcepts.com/inverter-installation-in-lagos`}/>
             <meta
                 name="description"

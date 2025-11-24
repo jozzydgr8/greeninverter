@@ -10,7 +10,7 @@ export const BestInstaller = ()=>{
     return (
         <>
         <Helmet>
-            <title>Best Inverter Installers in Lagos | Green City Concepts</title>
+            <title>Best Inverter Installers in Lagos | GREEN ENERGY INSTALLATION | Green City Concepts</title>
             <link rel='canonical' href={`https://greencityconcepts.com/best-inverter-installers-in-lagos`}/>
             <meta
                 name="description"

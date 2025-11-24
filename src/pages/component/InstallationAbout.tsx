@@ -32,7 +32,7 @@ export const InstallationAbout = ()=>{
                             <h3 className='animate-down'>Your Trusted Partner for Inverter Installation & Solar Solutions in Lagos</h3>
 
                             <p>
-                                GC Green Concept is a leading provider of **inverter installation**, **solar energy solutions**, 
+                                GC Green Concept is a leading provider of **inverter installation**,focused on delivering top-quality green energy installation solutions, **solar energy solutions**, 
                                 and **electrical power services** in Lagos and across Nigeria. We are committed to delivering 
                                 reliable, eco-friendly, and cost-effective energy systems tailored to homes, offices, and 
                                 commercial facilities.  

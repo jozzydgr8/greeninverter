@@ -32,7 +32,7 @@ export const BestInstallerAbout = ()=>{
                             <h3 className='animate-down'>Your Trusted Partner & One of the Best Inverter Installers in Lagos</h3>
 
                             <p>
-                                GC Green Concept is widely recognized as one of the <strong>best inverter installers in Lagos</strong>, 
+                                GC Green Concept a trusted name in green energy installation services is widely recognized as one of the <strong>best inverter installers in Lagos</strong>, 
                                 delivering reliable, sustainable, and cost-effective power solutions to homes, offices, and commercial 
                                 facilities across Nigeria. Our mission is to provide clean energy options through expertly executed 
                                 inverter installations, solar system setups, and professional electrical services.

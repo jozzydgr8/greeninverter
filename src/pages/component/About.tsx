@@ -25,7 +25,7 @@ export const About = ()=>{
                         <div>
                             <h3 className='animate-down'>Your Trusted Partner in Solar and Electrical Solutions</h3>
                             <p >
-                            GC Green Concept is a trusted provider of solar energy solutions and electrical/power services in Nigeria.
+                            GC Green Concept is a trusted provider of Green Energy Installation, solar energy solutions and electrical/power services in Nigeria.
                             With a strong commitment to quality, innovation, and customer satisfaction, we specialize in electrical installations and maintenance, solar system setup and support, as well as power supply solutions. Over the years, we have successfully served several clients across the country,
                             consistently meeting regulatory standards and exceeding customer expectations. 
 
