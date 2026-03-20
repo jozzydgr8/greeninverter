@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/greeninverter/static/css/main.aa398414.css",
-    "main.js": "/greeninverter/static/js/main.14f5d98c.js",
-    "static/js/453.6f5ec2d1.chunk.js": "/greeninverter/static/js/453.6f5ec2d1.chunk.js",
-    "static/media/mrgreen.png": "/greeninverter/static/media/mrgreen.b71a2690aa823efbede6.png",
-    "static/media/invertersimage.png": "/greeninverter/static/media/invertersimage.c162dea9ba6630a11066.png",
-    "static/media/electricalwiring.png": "/greeninverter/static/media/electricalwiring.73b9751e8e7710c74104.png",
-    "static/media/housewithpanels.png": "/greeninverter/static/media/housewithpanels.1d7e3074a64ea5eb6e5a.png",
-    "static/media/greeninverterlogo.jpg": "/greeninverter/static/media/greeninverterlogo.90a1ee593a4498db4e74.jpg",
-    "static/media/electricfence.jpg": "/greeninverter/static/media/electricfence.feac01bb62f08c75f519.jpg",
-    "index.html": "/greeninverter/index.html",
-    "main.aa398414.css.map": "/greeninverter/static/css/main.aa398414.css.map",
-    "main.14f5d98c.js.map": "/greeninverter/static/js/main.14f5d98c.js.map",
-    "453.6f5ec2d1.chunk.js.map": "/greeninverter/static/js/453.6f5ec2d1.chunk.js.map"
+    "main.css": "/static/css/main.aa398414.css",
+    "main.js": "/static/js/main.e5f08875.js",
+    "static/js/453.576f10f2.chunk.js": "/static/js/453.576f10f2.chunk.js",
+    "static/media/mrgreen.png": "/static/media/mrgreen.b71a2690aa823efbede6.png",
+    "static/media/invertersimage.png": "/static/media/invertersimage.c162dea9ba6630a11066.png",
+    "static/media/electricalwiring.png": "/static/media/electricalwiring.73b9751e8e7710c74104.png",
+    "static/media/housewithpanels.png": "/static/media/housewithpanels.1d7e3074a64ea5eb6e5a.png",
+    "static/media/greeninverterlogo.jpg": "/static/media/greeninverterlogo.90a1ee593a4498db4e74.jpg",
+    "static/media/electricfence.jpg": "/static/media/electricfence.feac01bb62f08c75f519.jpg",
+    "index.html": "/index.html",
+    "main.aa398414.css.map": "/static/css/main.aa398414.css.map",
+    "main.e5f08875.js.map": "/static/js/main.e5f08875.js.map",
+    "453.576f10f2.chunk.js.map": "/static/js/453.576f10f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa398414.css",
-    "static/js/main.14f5d98c.js"
+    "static/js/main.e5f08875.js"
   ]
 }
