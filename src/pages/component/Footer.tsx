@@ -29,7 +29,11 @@ export const Footer =()=>{
              
             </div>
             <hr/>
-            <footer style={{padding:'0 3%'}}><a href='https://jozzycodes.com' target='_blank'>© GREEN CONCEPT 2025</a></footer>
+            <footer style={{padding:'1% 3%'}}><a href='https://greenenergyinstallation.com' target='_blank'>© GREEN CONCEPT 2025</a>
+            <div>
+                <small > <a style={{color:'gray'}} href='https://jozzycodes.com'>Built by jozzycodes</a></small>
+            </div>
+            </footer>
         </section>
     )
 }
